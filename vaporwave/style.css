@@ -1,0 +1,50 @@
+  body {
+        background-image: url("img/rain.gif"), url("img/bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Times New Roman;
+    }
+    
+    #cone1 {
+        width: 150px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #cone2 {
+        width: 150px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        daewqdqqsadr4v1 transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+    
+    #nintendo {
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 200px 0 0 0;
+    }
+    
+    #greeting {
+        display: block;
+        padding: 2px;
+        width: 800px;
+        margin: auto;
+        color: #ff30cb;
+        font-size: 60px;
+        text-align: center;
+        text-shadow: 2px 2px 0 yellow, -2px -2px 0 cyan;
+    }
+    
+    #greeting:hover {
+        filter: invert(100%);
+    }
