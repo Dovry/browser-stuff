@@ -1,0 +1,17 @@
+/*located in
+C:\Users\$User\AppData\Roaming\Firefox\Profiles\$profile.default\storage\permanent\chrome\
+*/
+
+/* No auto-complete arrow on location bar */
+.autocomplete-history-dropmarker{display: none !important;}
+
+@namespace url
+
+("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
+
+/* only needed once */
+
+#reader-mode-button,
+#readinglist-addremove-button {
+ display:none !important;
+}
