@@ -1,0 +1,15 @@
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+ * {
+     font-family: 'Ubuntu', sans-serif;
+     text-decoration: none;
+     color: #B8860B;
+ }
+
+ body {
+     background-color: #272b35 !important;
+ }
+
+ ul, ul li, li {
+     list-style: none;
+ }
